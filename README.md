@@ -15,17 +15,6 @@
 
 ---
 
-### 💻 What I'm Building
-
-| Project | Description | Tech |
-|---|---|---|
-| [AccessiAnalyzer](https://accessibility-analyzer-i6h5.vercel.app/) | AI-powered web accessibility scanner & WCAG 2.2 AA compliance engine | JavaScript, React |
-| [SupportHub-Pro](https://github.com/AmiteshKumarDubey/SupportHub-Pro-) | AI-powered enterprise support ticket platform with RAG-based semantic search | TypeScript |
-| [AI-Assessment-Extraction-Answer-Mapping](https://github.com/AmiteshKumarDubey/AI-Assessment-Extraction-Answer-Mapping) | Split-pane workspace for question extraction, OCR mapping, and AI grading | TypeScript |
-| [Portfolio](https://portfoilo-gamma-nine.vercel.app/) | Personal developer portfolio | HTML, CSS, JavaScript |
-
----
-
 ### 🛠️ Tech Stack & Tools
 
 **Languages & Backend**
@@ -54,10 +43,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AmiteshKumarDubey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
   <img src="https://streak-stats.demolab.com/?user=AmiteshKumarDubey&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiteshKumarDubey&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
