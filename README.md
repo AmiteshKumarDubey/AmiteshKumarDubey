@@ -1,7 +1,7 @@
 # Hi there, I'm Amitesh Kumar Dubey 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+AI+Enthusiast;Building+Scalable+Web+Apps+%26+RAG+Systems;Open+to+Software+Engineering+Roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+AI+Enthusiast;Building+Scalable+Web+Apps+%26+RAG+Systems;Open+to+Software+Engineering+Roles" alt="Full-Stack Developer | AI Enthusiast" />
 </p>
 
 ---
@@ -12,6 +12,17 @@
 - 🤖 Passionate about **Backend Engineering**, **System Design**, and **AI Automation (RAG/LangChain)**
 - 🏆 Participant at **CodeSrijan National Hackathon 2026**
 - 📫 Reach out: **dubeyamitesh20@gmail.com**
+
+---
+
+### 💻 What I'm Building
+
+| Project | Description | Tech |
+|---|---|---|
+| [AccessiAnalyzer](https://accessibility-analyzer-i6h5.vercel.app/) | AI-powered web accessibility scanner & WCAG 2.2 AA compliance engine | JavaScript, React |
+| [SupportHub-Pro](https://github.com/AmiteshKumarDubey/SupportHub-Pro-) | AI-powered enterprise support ticket platform with RAG-based semantic search | TypeScript |
+| [AI-Assessment-Extraction-Answer-Mapping](https://github.com/AmiteshKumarDubey/AI-Assessment-Extraction-Answer-Mapping) | Split-pane workspace for question extraction, OCR mapping, and AI grading | TypeScript |
+| [Portfolio](https://portfoilo-gamma-nine.vercel.app/) | Personal developer portfolio | HTML, CSS, JavaScript |
 
 ---
 
@@ -42,7 +53,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AmiteshKumarDubey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmiteshKumarDubey&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=AmiteshKumarDubey&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
