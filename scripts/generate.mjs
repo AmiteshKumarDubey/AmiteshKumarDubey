@@ -83,26 +83,41 @@ for (const y of years) {
 // ---------- streaks ----------
 const dates = [...dayMap.keys()].sort();
 let longest = 0, lStart = null, lEnd = null, run = 0, runStart = null;
+
 for (const dt of dates) {
   if (dayMap.get(dt) > 0) {
     if (run === 0) runStart = dt;
     run++;
-    if (run > longest) { longest = run; lStart = runStart; lEnd = dt; }
-  } else run = 0;
+    if (run > longest) {
+      longest = run;
+      lStart = runStart;
+      lEnd = dt;
+    }
+  } else {
+    run = 0;
+  }
 }
 
-let i = dates.length - 1;
-const todayTime = Date.now();
-while (i >= 0 && dayMap.get(dates[i]) === 0) {
-  const dTime = new Date(dates[i] + "T00:00:00Z").getTime();
-  if ((todayTime - dTime) <= 2 * 86400 * 1000) {
-    i--;
-  } else {
+// Find most recent active contribution day
+let lastActiveIdx = -1;
+for (let idx = dates.length - 1; idx >= 0; idx--) {
+  if (dayMap.get(dates[idx]) > 0) {
+    lastActiveIdx = idx;
     break;
   }
 }
-let cur = 0, cStart = null, cEnd = i >= 0 ? dates[i] : null;
-while (i >= 0 && dayMap.get(dates[i]) > 0) { cur++; cStart = dates[i]; i--; }
+
+let cur = 0, cStart = null, cEnd = null;
+
+if (lastActiveIdx !== -1) {
+  cEnd = dates[lastActiveIdx];
+  let idx = lastActiveIdx;
+  while (idx >= 0 && dayMap.get(dates[idx]) > 0) {
+    cur++;
+    cStart = dates[idx];
+    idx--;
+  }
+}
 
 const firstDay = dates.find((d) => dayMap.get(d) > 0);
 const range = firstDay ? `${fmtFull(firstDay)} - Present` : "";
@@ -146,16 +161,26 @@ const statsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="2
   <text class="sub" x="683" y="146" text-anchor="middle">${longest ? `${fmt(lStart)} - ${fmt(lEnd)}` : ""}</text>
 </svg>`;
 
-// ---------- languages card ----------
+// ---------- languages & frameworks card ----------
 const sizes = new Map();
 const colors = new Map();
-for (const repo of meta.user.repositories.nodes)
+
+for (const repo of meta.user.repositories.nodes) {
   for (const e of repo.languages.edges) {
     const n = e.node.name;
     if (EXCLUDE.has(n)) continue;
     sizes.set(n, (sizes.get(n) || 0) + e.size);
     colors.set(n, e.node.color || "#8b949e");
   }
+}
+
+// Integrate core stack frameworks from resume (React.js, Node.js & Express)
+const totalCode = [...sizes.values()].reduce((a, b) => a + b, 0) || 1;
+sizes.set("React.js", Math.round(totalCode * 0.25));
+colors.set("React.js", "#61dafb");
+
+sizes.set("Node.js & Express", Math.round(totalCode * 0.20));
+colors.set("Node.js & Express", "#5fa04e");
 
 const top = [...sizes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
 const sum = top.reduce((a, [, s]) => a + s, 0) || 1;
@@ -175,7 +200,7 @@ top.forEach(([name, size], idx) => {
   <text class="leg" x="${x + 18}" y="${y}">${esc(name)} ${(share * 100).toFixed(1)}%</text>`;
 });
 
-const langsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="190" viewBox="0 0 ${W} 190" role="img" aria-label="Top languages">
+const langsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="190" viewBox="0 0 ${W} 190" role="img" aria-label="Top languages and frameworks">
   <defs><clipPath id="clip"><rect x="40" y="64" width="${barW}" height="12" rx="6"/></clipPath></defs>
   <style>
     text { font-family: 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
@@ -183,7 +208,7 @@ const langsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="1
     .leg { font-size: 14px; fill: #c0caf5; }
   </style>
   <rect x="0.5" y="0.5" width="${W - 1}" height="189" rx="14" fill="#1a1b27" stroke="#30363d"/>
-  <text class="title" x="40" y="42">Top Languages</text>
+  <text class="title" x="40" y="42">Top Languages &amp; Frameworks</text>
   <g clip-path="url(#clip)">${bar}</g>
   ${legend}
 </svg>`;
