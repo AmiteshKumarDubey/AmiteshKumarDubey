@@ -11,6 +11,7 @@
 - 💼 Former **Full-Stack Developer Intern** at QTS Solutions
 - 🤖 Passionate about **Backend Engineering**, **System Design**, and **AI Automation (RAG/LangChain)**
 - 🏆 Participant at **CodeSrijan National Hackathon 2026**
+- 🌐 **Portfolio**: [portfoilo-gamma-nine.vercel.app](https://portfoilo-gamma-nine.vercel.app/)
 - 📫 Reach out: **dubeyamitesh20@gmail.com**
 
 ---
@@ -42,7 +43,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AmiteshKumarDubey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmiteshKumarDubey&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=AmiteshKumarDubey&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_bust=true" width="48%" />
 </p>
 
 ---
