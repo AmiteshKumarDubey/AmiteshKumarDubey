@@ -1,10 +1,5 @@
-<!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Amitesh%20Kumar%20Dubey&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Backend%20Enthusiast&descSize=18&descAlignY=60" alt="Banner" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+MERN+%26+AI;Building+Scalable+Web+Apps+%26+RAG+Systems;Open+to+Software+Engineering+Roles" alt="Typing Header" />
+  <img src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/banner.svg" alt="Amitesh Kumar Dubey - Full-Stack Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -53,26 +48,19 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=AmiteshKumarDubey&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Streak" />
-  </a>
+  <img src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/stats.svg" alt="GitHub contribution stats" width="100%" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiteshKumarDubey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=12" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiteshKumarDubey&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/langs.svg" alt="Top languages" width="100%" />
 </p>
 
 ### 🐍 Contribution Snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/snake-dark.svg" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" alt="Footer" />
 </p>
