@@ -39,23 +39,11 @@
 
 ---
 
-### 🏆 Achievements & GitHub Stats
+### 📊 GitHub Overview
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=amitesh75&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Amitesh Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amitesh75&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amitesh75&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
----
-
-### 📈 GitHub Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amitesh75&theme=tokyonight&hide_border=true&bg_color=1a1b26" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-stats-git-masterrst-anuraghazra.vercel.app/api?username=AmiteshKumarDubey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats-git-masterrst-anuraghazra.vercel.app/api/top-langs/?username=AmiteshKumarDubey&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 ---
