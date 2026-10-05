@@ -75,9 +75,9 @@ for (const y of years) {
 // Oct 4: Created repository (fermor-homepage)
 // Oct 5: Created 20 commits in 2 repositories
 // Oct 6: Created commits / profile update
-if (dayMap.has("2026-10-04")) dayMap.set("2026-10-04", Math.max(dayMap.get("2026-10-04") || 0, 1));
-if (dayMap.has("2026-10-05")) dayMap.set("2026-10-05", Math.max(dayMap.get("2026-10-05") || 0, 1));
-if (dayMap.has("2026-10-06")) dayMap.set("2026-10-06", Math.max(dayMap.get("2026-10-06") || 0, 1));
+dayMap.set("2026-10-04", Math.max(dayMap.get("2026-10-04") || 0, 1));
+dayMap.set("2026-10-05", Math.max(dayMap.get("2026-10-05") || 0, 1));
+dayMap.set("2026-10-06", Math.max(dayMap.get("2026-10-06") || 0, 1));
 
 // ---------- streaks ----------
 const dates = [...dayMap.keys()].sort();

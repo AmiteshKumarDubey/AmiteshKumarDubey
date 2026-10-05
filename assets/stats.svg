@@ -21,10 +21,10 @@
 
   <circle cx="410" cy="82" r="44" fill="none" stroke="#30363d" stroke-width="6"/>
   <circle cx="410" cy="82" r="44" fill="none" stroke="url(#ring)" stroke-width="6" stroke-linecap="round"
-          stroke-dasharray="0.0 276.5" transform="rotate(-90 410 82)"/>
-  <text class="num cur" x="410" y="95" text-anchor="middle">0</text>
+          stroke-dasharray="103.7 276.5" transform="rotate(-90 410 82)"/>
+  <text class="num cur" x="410" y="95" text-anchor="middle">3</text>
   <text class="lbl cur" x="410" y="156" text-anchor="middle">Current Streak</text>
-  <text class="sub" x="410" y="176" text-anchor="middle">Start one today</text>
+  <text class="sub" x="410" y="176" text-anchor="middle">Oct 4 - Oct 6</text>
 
   <text class="num" x="683" y="92" text-anchor="middle">8</text>
   <text class="lbl" x="683" y="124" text-anchor="middle">Longest Streak</text>
