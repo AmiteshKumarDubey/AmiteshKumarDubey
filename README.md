@@ -50,17 +50,3 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/stats.svg" alt="GitHub contribution stats" width="100%" />
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/langs.svg" alt="Top languages" width="100%" />
-</p>
-
-### 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/AmiteshKumarDubey/AmiteshKumarDubey/main/assets/snake-dark.svg" />
-  </picture>
-</p>

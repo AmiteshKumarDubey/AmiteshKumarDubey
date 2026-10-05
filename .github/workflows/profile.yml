@@ -24,22 +24,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate stats and languages cards
+      - name: Generate stats card
         run: node scripts/generate.mjs
         env:
           GH_USER: ${{ github.repository_owner }}
-          # Optional: add a PAT as repo secret PROFILE_TOKEN (scope: read:user)
-          # to also count private contributions. Falls back to the default token.
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
-          EXCLUDE_LANGS: "Jupyter Notebook"
-
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            assets/snake.svg
-            assets/snake-dark.svg?palette=github-dark
 
       - name: Commit assets
         run: |
