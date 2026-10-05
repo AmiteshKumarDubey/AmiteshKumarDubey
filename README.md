@@ -39,9 +39,9 @@
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**ACCESSIBILITY-ANALYZER**](https://github.com/AmiteshKumarDubey/ACCESSIBILITY-ANALYZER) | Full-stack accessibility auditing tool scanning webpages for WCAG 2.2 violations, SEO issues, page quality, and UI/UX problems with AI insights | JavaScript, React |
 | [**SupportHub-Pro**](https://github.com/AmiteshKumarDubey/SupportHub-Pro-) | AI-powered enterprise support ticketing: dual customer/agent portals, automated routing, AI classification, RAG-based semantic search | TypeScript |
-| [**AI Assessment Extraction & Answer Mapping**](https://github.com/AmiteshKumarDubey/AI-Assessment-Extraction-Answer-Mapping) | Split-pane workspace for question extraction, handwriting OCR mapping, SVG bounding-box highlights and AI grading | TypeScript |
-| [**Portfolio**](https://github.com/AmiteshKumarDubey/Portfoilo) | Responsive developer portfolio with smooth animations and interactive UI | HTML, CSS, JS |
+| [**Youtube-Clone**](https://github.com/AmiteshKumarDubey/Youtube-Clone) | Responsive YouTube clone featuring clean UI, video browsing experience, and scalable frontend architecture | JavaScript, React |
 
 ---
 

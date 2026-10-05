@@ -92,7 +92,15 @@ for (const dt of dates) {
 }
 
 let i = dates.length - 1;
-if (i >= 0 && dayMap.get(dates[i]) === 0) i--; // today may not have a contribution yet
+const todayTime = Date.now();
+while (i >= 0 && dayMap.get(dates[i]) === 0) {
+  const dTime = new Date(dates[i] + "T00:00:00Z").getTime();
+  if ((todayTime - dTime) <= 2 * 86400 * 1000) {
+    i--;
+  } else {
+    break;
+  }
+}
 let cur = 0, cStart = null, cEnd = i >= 0 ? dates[i] : null;
 while (i >= 0 && dayMap.get(dates[i]) > 0) { cur++; cStart = dates[i]; i--; }
 
