@@ -43,7 +43,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=amitesh75&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=amitesh75&theme=tokyonight&hide_border=true&v=20261006" width="48%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=amitesh75&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" width="48%" />
 </p>
 
 ---
