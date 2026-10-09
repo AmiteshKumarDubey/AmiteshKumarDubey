@@ -15,16 +15,16 @@
   <line x1="273" y1="35" x2="273" y2="165" stroke="#30363d"/>
   <line x1="547" y1="35" x2="547" y2="165" stroke="#30363d"/>
 
-  <text class="num" x="137" y="92" text-anchor="middle">61</text>
+  <text class="num" x="137" y="92" text-anchor="middle">67</text>
   <text class="lbl" x="137" y="124" text-anchor="middle">Total Contributions</text>
   <text class="sub" x="137" y="146" text-anchor="middle">Sep 25, 2024 - Present</text>
 
   <circle cx="410" cy="82" r="44" fill="none" stroke="#30363d" stroke-width="6"/>
   <circle cx="410" cy="82" r="44" fill="none" stroke="url(#ring)" stroke-width="6" stroke-linecap="round"
-          stroke-dasharray="34.6 276.5" transform="rotate(-90 410 82)"/>
-  <text class="num cur" x="410" y="95" text-anchor="middle">1</text>
+          stroke-dasharray="69.1 276.5" transform="rotate(-90 410 82)"/>
+  <text class="num cur" x="410" y="95" text-anchor="middle">2</text>
   <text class="lbl cur" x="410" y="156" text-anchor="middle">Current Streak</text>
-  <text class="sub" x="410" y="176" text-anchor="middle">Oct 8 - Oct 8</text>
+  <text class="sub" x="410" y="176" text-anchor="middle">Oct 8 - Oct 9</text>
 
   <text class="num" x="683" y="92" text-anchor="middle">8</text>
   <text class="lbl" x="683" y="124" text-anchor="middle">Longest Streak</text>
